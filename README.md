@@ -30,6 +30,7 @@ No requiere build ni dependencias.
 python3 -m http.server 8000
 # luego visitar http://localhost:8000
 
+
 🌐 Deploy en GitHub Pages
 Hacé push a la rama main.
 En Settings → Pages:
