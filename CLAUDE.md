@@ -33,6 +33,23 @@ This is a **static HTML + JavaScript website** designed for **GitHub Pages** dep
 - **Domain:** Custom domain configured via CNAME
 - **URL Pattern:** `https://<username>.github.io/CanvaWebsite/`
 
+## Git Workflow
+
+### Standard Workflow
+- `git add .` - Stage all changes
+- `git commit -m "message"` - Commit with descriptive message
+- `git push` - Push to remote repository
+
+### Branch Management
+- **Main Branch:** `main` (protected, deploys to GitHub Pages)
+- Create feature branches for larger changes
+- Merge to main when ready for deployment
+
+### Commit Message Guidelines
+- Use present tense ("Add feature" not "Added feature")
+- Keep first line under 50 characters
+- Be descriptive about what changed and why
+
 ## Notes for Claude
 
 - This is a static site with no build process or package.json
