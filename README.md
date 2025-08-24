@@ -4,7 +4,7 @@ Sitio web estático en **HTML + JavaScript** pensado para publicarse en **GitHub
 
 ---
 
-## 📁 Estructura
+## 📁 Structure
 
 
 ├─ index.html # Página principal
@@ -26,10 +26,8 @@ No requiere build ni dependencias.
 **Opción A (rápida):** abrir `index.html` directamente en el navegador.  
 **Opción B (servidor local recomendado):**
 ```bash```
-# con Python 3
+## with Python 3
 python3 -m http.server 8000
-# luego visitar http://localhost:8000
-
 
 🌐 Deploy en GitHub Pages
 Hacé push a la rama main.
